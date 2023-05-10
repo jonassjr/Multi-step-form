@@ -1,0 +1,20 @@
+.btn-next {
+  width: 130px;
+  height: 40px;
+  border-radius: 0.5rem;
+  background-color: #0e185f;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-next:hover {
+  box-shadow: 0 0 24px 4px hsla(233, 73%, 13%, 0.25);
+}
+
+@media screen and (max-width: 320px) {
+  .btn-next {
+    width: 115px;
+    height: 40px;
+  }
+}

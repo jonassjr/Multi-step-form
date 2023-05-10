@@ -1,0 +1,28 @@
+/* =============== GOOGLE FONTS =============== */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #0e185f;
+}
+
+html {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 545px) {
+  html {
+    display: block;
+  }
+}

@@ -1,0 +1,24 @@
+.btn-send {
+  width: 130px;
+  height: 40px;
+  padding: 12px 36px;
+  border-radius: .5rem;
+  background-color: #0E185F;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-send:hover {
+  box-shadow: 0 0 24px 4px hsla(233, 73%, 13%, 0.25);
+}
+
+.btn-icon {
+  stroke: #fff;
+}
+
+@media screen and (max-width: 320px){
+  .btn-send {
+    width: 115px;
+    height: 40px;
+  }
+}
