@@ -1,0 +1,19 @@
+.btn-preview {
+  position: absolute;
+  right: 9rem;
+  width: 130px;
+  height: 40px;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  color: #0e185f;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .btn-preview {
+    position: static;
+    width: 115px;
+    height: 40px;
+  }
+}

@@ -1,0 +1,41 @@
+.confirmation-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.confirmation-container .header {
+  display: flex;
+  flex-direction: column;
+  row-gap: .5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #A3A3A3;
+}
+
+.header h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header p {
+  font-size: 14px;
+}
+
+.data-container {
+  display: grid;
+  row-gap: .3rem;
+}
+
+.data-container p {
+  font-size: 14px;
+}
+
+p strong {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 890px){
+  .header h2 {
+    font-size: 22px;
+  }
+}
