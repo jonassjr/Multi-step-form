@@ -50,7 +50,7 @@ export function Steps({currentStep}) {
       
       <div className={`step ${currentStep > 3 ? "active" : ""}`}>
         <div className="step-info">
-          <p className="step-title" >Confirmação</p>
+          <p className="step-title" >Confirmar</p>
           <p>Confirme seus dados</p>
         </div>
 

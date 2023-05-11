@@ -17,6 +17,7 @@ export function Name({ data, updateFieldHandler }) {
           className="input"
           type="text"
           name="name"
+          placeholder="João da silva"
           required
           value={data.name || ""}
           onChange={(e) => updateFieldHandler("name", e.target.value)}
